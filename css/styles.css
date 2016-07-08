@@ -201,6 +201,10 @@ article.episode .episode-description {
   padding: 1em 1em 0.75em 1em;
 }
 
+.episode-thumbnail {
+  display: none;
+}
+
 .episode-description strong {
   color: black;
 }
@@ -270,7 +274,7 @@ footer p {
 }
 
 @media screen and (min-width: 740px) {
-  
+
   header {
     box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
     border-bottom-right-radius: 5px;
@@ -302,6 +306,31 @@ footer p {
     display: flex;
     flex-direction: column;
     width: 50%;
+  }
+
+  .episode-thumbnail {
+    display: block;
+  }
+
+  .episode-body {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .episode-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .audio-player {
+    margin-left: 1em;
+  }
+
+  .episode-thumbnail img {
+    margin: 1em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
   }
 
 }
