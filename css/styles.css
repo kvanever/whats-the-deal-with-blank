@@ -58,6 +58,7 @@ body {
 }
 
 header {
+  height: 20vh;
   display: flex;
   flex-direction: row;
   flex-basis: 30%;
@@ -86,6 +87,7 @@ section#description {
   background-color: #1a1a1a;
   color: white;
   padding: 1em 1em 0.75em 1em;
+  box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
 }
 
 p {
@@ -98,4 +100,39 @@ p {
 p strong {
   font-weight: 500;
   color: #bfbfbf;
+}
+
+section#subscription-buttons {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1em 0;
+}
+
+.subscribe {
+  color: white;
+  line-height: 4em;
+  font-size: 1.0em;
+  width: 95%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a.subscribe {
+  text-decoration: none;
+}
+
+button.subscribe {
+  background: #cc0000;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.subscribe img {
+  margin-left: 0.5em;
 }
