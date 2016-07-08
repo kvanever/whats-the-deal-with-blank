@@ -188,6 +188,11 @@ article.episode h2 {
   flex: 1;
 }
 
+.blank {
+  text-transform: uppercase;
+  border-bottom: 5px solid black;
+}
+
 article.episode time {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -313,6 +318,10 @@ footer p {
     justify-content: space-around;
   }
 
+  article.episode h2 {
+    font-size: 1.2em;
+  }
+
   .episode-thumbnail {
     display: block;
   }
@@ -352,6 +361,7 @@ footer p {
   section#description {
     font-size: 1.5em;
   }
+
 }
 
 @media screen and (min-width: 1200px) {
