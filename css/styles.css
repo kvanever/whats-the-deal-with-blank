@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -347,6 +342,7 @@ footer p {
 }
 
 @media screen and (min-width: 1085px) {
+
   .title h1 {
     font-size: 4em;
   }
@@ -355,7 +351,9 @@ footer p {
     font-size: 1.5em;
   }
 }
+
 @media screen and (min-width: 1200px) {
+
   section#recent-episodes {
     flex-direction: row;
     justify-content: space-around;
@@ -371,11 +369,11 @@ footer p {
     flex:1;
   }
 
-section#biographies {
-  flex-direction: row;
-}
+  section#biographies {
+    flex-direction: row;
+  }
 
-.bio {
-  flex: 1;
-}
+  .bio {
+    flex: 1;
+  }
 }
