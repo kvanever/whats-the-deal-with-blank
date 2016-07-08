@@ -57,6 +57,11 @@ body {
   margin: 1em 0.5em;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
 header {
   height: 20vh;
   display: flex;
@@ -74,13 +79,14 @@ figure#logo {
 }
 
 figure#logo img {
+  margin: 1em;
   height: 15vh;
 }
 
 .title h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.8em;
   text-transform: uppercase;
   flex-grow: 2;
   margin: 1em;
@@ -228,8 +234,8 @@ article.bio {
   border-bottom: 1px solid white;
   border-radius: 5px;
   box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
-  margin-bottom: 1em;
   background-color: #c00;
+  margin: 1em;
 }
 
 article.bio figure {
@@ -265,6 +271,7 @@ footer {
   border-radius: 5px;
   box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
   background-color: #bfbfbf;
+  margin: 1em;
 }
 
 footer p {
@@ -306,6 +313,7 @@ footer p {
     display: flex;
     flex-direction: column;
     width: 50%;
+    justify-content: space-around;
   }
 
   .episode-thumbnail {
@@ -333,4 +341,41 @@ footer p {
     box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
   }
 
+  .title h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 1085px) {
+  .title h1 {
+    font-size: 4em;
+  }
+
+  section#description {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  section#recent-episodes {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .episode {
+    max-width: 30%;
+  }
+
+  .episode-body {
+    flex-direction: column;
+    justify-content: space-around;
+    flex:1;
+  }
+
+section#biographies {
+  flex-direction: row;
+}
+
+.bio {
+  flex: 1;
+}
 }
