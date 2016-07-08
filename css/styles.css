@@ -76,7 +76,26 @@ figure#logo img {
 
 .title h1 {
   font-family: 'Oswald', sans-serif;
+  font-weight: 700;
   font-size: 2em;
   text-transform: uppercase;
   flex-grow: 2;
+}
+
+section#description {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 1em 1em 0.75em 1em;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin: 0.25em 0.25em 0.5em 0.25em;
+}
+
+p strong {
+  font-weight: 500;
+  color: #bfbfbf;
 }
