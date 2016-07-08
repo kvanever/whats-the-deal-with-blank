@@ -151,3 +151,51 @@ i {
   background-color: #bfbfbf;
   border-radius: 100%;
 }
+
+section#recent-episodes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+article.episode {
+  background-color: white;
+  border: 1px solid #1a1a1a;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
+  margin-bottom: 1em;
+}
+
+article.episode header {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid #1a1a1a;
+  height: auto;
+}
+
+article.episode h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  margin: 0.5em;
+}
+
+article.episode time {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #bfbfbf;
+}
+
+article.episode button {
+  border: none;
+  background: none;
+}
+
+article.episode .episode-description {
+  padding: 1em 1em 0.75em 1em;
+}
+
+.episode-description strong {
+  color: black;
+}
