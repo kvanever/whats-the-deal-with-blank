@@ -199,3 +199,9 @@ article.episode .episode-description {
 .episode-description strong {
   color: black;
 }
+
+.audio-player {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
