@@ -185,12 +185,14 @@ article.episode h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 1em;
   margin: 0.5em;
+  flex: 1;
 }
 
 article.episode time {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #bfbfbf;
+  flex-shrink: 0;
 }
 
 article.episode button {
