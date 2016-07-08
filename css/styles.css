@@ -236,6 +236,7 @@ article.bio figure {
 
 article.bio figure img {
   width: 90%;
+  margin-top: 1em;
 }
 
 article.bio .bio-content {
@@ -248,6 +249,7 @@ figure.bio-image figcaption {
   text-transform: uppercase;
   margin-top: 0.25em;
   text-shadow: 3px 3px rgba(26,26,26,0.75);
+  margin-bottom: 1em;
 }
 
 article#gill {
@@ -268,6 +270,7 @@ footer p {
 }
 
 @media screen and (min-width: 740px) {
+  
   header {
     box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
     border-bottom-right-radius: 5px;
