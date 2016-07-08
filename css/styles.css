@@ -74,7 +74,7 @@ figure#logo {
 }
 
 figure#logo img {
-  width: 90%;
+  height: 15vh;
 }
 
 .title h1 {
@@ -83,6 +83,7 @@ figure#logo img {
   font-size: 2em;
   text-transform: uppercase;
   flex-grow: 2;
+  margin: 1em;
 }
 
 section#description {
@@ -174,7 +175,7 @@ article.episode header {
   border: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   border-bottom: 1px solid #1a1a1a;
   height: auto;
 }
@@ -264,4 +265,40 @@ footer p {
   font-family: 'Oswald', sans-serif;
   text-align: right;
   padding: 1em;
+}
+
+@media screen and (min-width: 740px) {
+  header {
+    box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 1em;
+    order: -10;
+  }
+
+  section#description {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1em 1em 0.75em 1em;
+    box-shadow: 3px 3px 5px 0px rgba(26,26,26,0.75);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .primary-content {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1em;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
 }
